@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 // import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 export default function TextForm(props) {
@@ -44,7 +45,7 @@ export default function TextForm(props) {
             id="myBox"
             rows="8"
             style={{backgroundColor: props.mode === 'dark'? 'grey':'white',
-                    color:  props.mode === 'dark'? 'white':'black'}}
+                    color:  props.mode === 'dark'? 'white':'black', cursor: 'default'}}
           ></textarea>
         </div>
         <div className="container">
